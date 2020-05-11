@@ -8,6 +8,8 @@ make conda environment
 - install tensorflow-hub
 - download biggan from hub and give path to biggan.py
 - python3 setup.py install
+
+gantools --output-dir test_01 --username skjqgajnlgnnktjiub@awdrt.org --password "password" --nframes 2000 --keys $(python file.py)
 ## Instructions
 1. Install Python 3 x64; it is very important that you get the 64 bit version or it will not work. If you are on Windows, be sure to check the "add to PATH" box in the installer. (Note for macOS users: if you are going to use brew to install python make sure you replace `python` with `python3` and `pip` with `pip3` in all of the following steps).
 2. Install git
