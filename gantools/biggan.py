@@ -3,12 +3,12 @@ import tensorflow.compat.v1 as tf
 import tensorflow_hub as hub
 import numpy as np
 from itertools import cycle
-
+from pathlib import Path
 
 #session = InteractiveSession(config=config)
 
-MODULE_PATH = '/home/joppe/git/gan/gantools/gantools/model'
-
+school = '/home/linuxhku/projects/gantools/gantools/model'
+MODULE_PATH = school
 
 class BigGAN(object):
     def __init__(self, module_path=MODULE_PATH):

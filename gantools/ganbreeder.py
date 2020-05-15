@@ -60,5 +60,6 @@ def get_info_batch(username, password, keys):
     l = list()
     sid = login(username, password)
     for key in keys:
+        print(key)
         l.append(get_info(sid, key))
     return l
